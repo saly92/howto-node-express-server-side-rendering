@@ -1,4 +1,4 @@
-export const siteView = ({ employees,  books }) => {
+export const siteView = ({ employees, books }) => {
     return `<!DOCTYPE html>
         <html lang="en">
         <head>
@@ -18,7 +18,10 @@ export const siteView = ({ employees,  books }) => {
             .map((employee) => `<li> ${employee.lastName}</li>`)
             .join("")}</ul>  
          <img src="images/" alt="" />
-       
+       <h2>There are ${books.length} books:</h2>
+        <ul>
+             ${books.map((book) => `<li>${book.title}</li>`).join("")}
+        </ul>
      
             </body>
 
