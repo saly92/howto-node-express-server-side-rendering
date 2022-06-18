@@ -1,0 +1,10 @@
+h1 {
+    background-color: aquamarine;
+}
+
+body {
+    background-image: url(images/Humaaans\ -\ Sitting.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+   background-attachment: fixed;
+}
